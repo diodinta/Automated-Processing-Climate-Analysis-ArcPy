@@ -1,0 +1,6 @@
+
+directory:
+    GDAL: C:\OSGeo4W\bin
+    MRT: C:\Program Files\MRT\bin
+
+run:

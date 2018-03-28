@@ -1,0 +1,1 @@
+for %i IN (*.tif) do gdalwarp --config GDALWARP_IGNORE_BAD_CUTLINE YES -srcnodata -999 -dstnodata NoData -cutline mng_bnd_subset_chirps_20_005_deg_grid_diss_a.shp -crop_to_cutline %i mng_cli"_"%i
